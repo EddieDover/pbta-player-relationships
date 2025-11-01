@@ -1,0 +1,6 @@
+dist/
+node_modules/
+coverage/
+pbta-player-relationships.zip
+styles/pbta-player-relationships.css
+.foundrylocation

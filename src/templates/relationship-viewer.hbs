@@ -1,0 +1,18 @@
+<div class="relationship-viewer-container">
+  {{#if hasCharacters}}
+    <div class="relationship-canvas-wrapper">
+      <canvas id="relationship-canvas"></canvas>
+    </div>
+    <div class="relationship-legend">
+      <p><i class="fas fa-circle"></i>
+        {{localize "pbta-player-relationships.UI.ViewerLegendNodes"}}</p>
+      <p><i class="fas fa-minus"></i>
+        {{localize "pbta-player-relationships.UI.ViewerLegendEdges"}}</p>
+    </div>
+  {{else}}
+    <div class="relationship-viewer-empty">
+      <p>{{localize "pbta-player-relationships.UI.NoPlayerMembers"}}</p>
+      <p>{{localize "pbta-player-relationships.UI.CreateMoreCharacters"}}</p>
+    </div>
+  {{/if}}
+</div>
