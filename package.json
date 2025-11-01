@@ -1,7 +1,7 @@
 {
   "name": "pbta-player-relationships",
   "private": true,
-  "version": "1.2.0",
+  "version": "1.0.1",
   "description": "Adds a player relationship system to PbtA characters",
   "homepage": "https://github.com/EddieDover/pbta-player-relationships#readme",
   "url": "https://github.com/EddieDover/pbta-player-relationships",
