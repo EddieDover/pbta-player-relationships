@@ -52,7 +52,7 @@ jobs:
       # Create a release for this specific version
       - name: Create Release
         id: create_version_release
-        uses: ncipollo/release-action@v1
+        uses: ncipollo/release-action@v1.14.0
         with:
           allowUpdates: true # set this to false if you want to prevent updating existing releases
           name: v${{ steps.get-version.outputs.version }}

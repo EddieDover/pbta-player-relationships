@@ -113,7 +113,6 @@ class PlayerRelationships {
   }
 
   static openRelationshipViewer() {
-    console.log("womp");
     if (!game.user.isGM) {
       ui.notifications.warn(
         game.i18n.localize(
@@ -352,7 +351,6 @@ Hooks.on("getSceneControlButtons", (controls) => {
   };
 
   controls.tokens.tools["relationship-viewer"] = button;
-  console.log(button);
 });
 
 // Hook into actor sheet rendering to add relationships tab
